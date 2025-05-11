@@ -5,4 +5,4 @@ DEBIAN_FRONTEND=noninteractive dpkg -i veracrypt-console-1.26.20-Debian-12-amd64
 veracrypt --version
 
 mkdir -p /mnt/secure
-veracrypt /dev/sdb1 /mnt/secure
+veracrypt /dev/sda1 /mnt/secure
