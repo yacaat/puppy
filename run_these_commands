@@ -1,1 +1,1 @@
-sudo bash <(curl -s https://raw.githubusercontent.com/yacaat/puppy/heads/main/update_firefox)
+bash <(curl -s https://raw.githubusercontent.com/yacaat/puppy/heads/main/update_firefox)
