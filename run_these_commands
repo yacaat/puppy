@@ -1,4 +1,4 @@
 bash <(curl -s https://raw.githubusercontent.com/yacaat/puppy/main/update_firefox)
 bash <(curl -s https://raw.githubusercontent.com/yacaat/puppy/main/install_veracrypt)
 bash <(curl -s https://raw.githubusercontent.com/yacaat/puppy/main/install_keepass)
-cherrytree /mnt/secure/Contents.ctb
+nohup cherrytree /mnt/secure/Contents.ctb &
