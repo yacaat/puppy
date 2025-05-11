@@ -1,3 +1,5 @@
+cd /tmp
+
 wget -q --show-progress https://launchpad.net/veracrypt/trunk/1.26.20/+download/veracrypt-console-1.26.20-Debian-12-amd64.deb
 DEBIAN_FRONTEND=noninteractive dpkg -i veracrypt-console-1.26.20-Debian-12-amd64.deb || sudo DEBIAN_FRONTEND=noninteractive apt-get install -f -y
 veracrypt --version
